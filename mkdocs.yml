@@ -1,0 +1,12 @@
+site_name: "Test site from squidfunk"
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+theme:
+  name: material
+
+nav:
+  
