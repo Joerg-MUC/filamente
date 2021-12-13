@@ -1,4 +1,5 @@
 site_name: "3d_exp Filament settings"
+dev_addr: '0.0.0.0:8000'
 
 markdown_extensions:
   - admonition
@@ -9,4 +10,6 @@ theme:
   name: material
 
 nav:
+  - Home: index.md
+  - Links: information.md
   
