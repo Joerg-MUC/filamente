@@ -9,3 +9,9 @@ Mein Repository um die Slicer - Einstellungen für die unterschiedlichen Filamen
 
 * stop.sh stoppt den Docker Container
 
+## Project layout
+
+    mkdocs.yml    # The configuration file.
+    docs/
+        index.md  # The documentation homepage.
+        ...       # Other markdown pages, images and other files.

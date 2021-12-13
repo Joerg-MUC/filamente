@@ -1,24 +1,17 @@
-# Welcome to MkDocs
+# Filament for 3d printing
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+using differnt filaments on multiple 3d printers needs changes to the slicing parameters to secure optimal printing.
 
-## Commands
+In general there are main setting based on
+* printer
+    * nozle diameter
+    * printing speed
+* material type
+* material vendor
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+And yes, details can change if you get different charges of the same material. So a slidly adaption needs to be done for each spool.
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-
-## Printers for 3d
-??? note "Printers:"
-    printers I use personally
-
+??? note "my 3d printer:"
+    
     * [`Creality Ender 5 Pro`](printer/Ender5)
-    * [`ANet A8`](printer/Anet8) - Umbgebaut auf Alu-Rahmen.
+    * [`ANet A8`](printer/AnetA8) - Umbgebaut auf Alu-Rahmen.
